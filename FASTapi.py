@@ -16,12 +16,6 @@ app = FastAPI()
 def home():
     return{'text' :'Price prediction'}
 
-
-'S.No', 'Train_Names', 'company_name', 'country_name', 'engine_type',
-       'Train_Type', 'Train_bogies', 'speed_of_train', 'source_station',
-       'destination_station', 'carry_weight', 'maintance_cost', 'Hours',
-       'Price']
-    
     
     
 @app.get('/predict')
